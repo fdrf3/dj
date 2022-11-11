@@ -1,0 +1,6 @@
+pygame.init()
+screen=pygame.display.set_mode((480,700))  
+pygame.display.set_caption('game')
+icon=pygame.image.load('images/me.png')          
+pygame.display.set_icon(icon)              
+bgImg=pygame.image.load('images/background.png')    
